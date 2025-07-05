@@ -1,0 +1,12 @@
+name: OPLimit
+main: org.oplimit.OPLimit
+version: 1.0
+api-version: "1.21"
+description: 记录所有管理员执行的命令
+author: sin
+prefix: OPLimit
+
+# 数据库支持配置（可选）
+database:
+  driver: sqlite
+  filename: op-commands.db
